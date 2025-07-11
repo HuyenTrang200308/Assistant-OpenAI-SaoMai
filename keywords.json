@@ -1,0 +1,495 @@
+[
+  {
+    "hoi_thi_truong": {
+      "keywords": [
+        "đi thị trường",
+        "đi xkld",
+        "thị trường nào",
+        "xkld đài loan/xkld Đài Loan",
+        "xkld nhật bản/xkld Nhật Bản"
+      ],
+      "examples": [
+        "Mình muốn đi thị trường nào ạ",
+        "anh/chị/bạn đang có nhu cầu đi xkld đài loan ạ?",
+        "Mình muốn tìm hiểu ngành nghề nào ạ?",
+        "Muốn đi thực tập sinh làm công xưởng đúng không ạ"
+      ],
+      "response": "Anh/chị đang có nhu cầu tìm kiếm đơn hàng phù hợp đi xuất khẩu lao động Đài Loan hay Nhật Bản ạ? Bên em chuyên XKLD và du học, anh/chị muốn tìm hiểu thông tin về chương trình nào ạ?"
+    }
+  },
+  {
+    "hoi_thong_tin":
+      {"keywords": [
+        "xin thông tin",
+        "chiều cao",
+        "cân nặng",
+        "kinh nghiệm làm việc",
+        "form"
+      ],
+      "examples": [
+        "Cho mình xin form đăng ký",
+        "Bạn có thể cho mình xin thông tin về chiều cao, cân nặng được không?",
+        "Xin link điền form"
+      ],
+      "response": "Dạ anh/chị cho công ty em xin một số thông tin như là: chiều cao/ cân nặng, kinh nghiệm làm việc từ năm 18t tới nay ạ. \n Hoặc anh/chị có thể giúp em điền thông tin vào link: https://forms.gle/ykuPWbvvWS4RPfLA6"
+      }
+  },
+  {
+    "hoi_dien_form": {
+      "keywords": [
+        "Hướng dẫn điền form"
+      ],
+      "examples": [
+        "https://forms.gle/ykuPWbvvWS4RPfLA6 anh chị có thể giúp em điền thông tin vào link em gửi trên nhé"
+      ],
+      "response": [
+        "Dạ, anh/chị hoàn thành nốt thông tin của mình, để bên em làm form rồi gửi bên Đài Loan ghép đơn ạ.",
+        "Vâng, để bên em làm form, cần thêm thông tin sẽ xin phép gọi cho anh/chị ạ.",
+        "Anh/chị gửi giúp em ảnh chân dung và ảnh toàn thân, dùng điện thoại chụp cũng được ạ."
+      ]
+    }
+  },
+  {
+    "hoi_nguyen_vong":{    
+      "keywords": [
+        "nguyện vọng",
+        "chọn khu vực",
+        "chọn đài",
+        "đơn hàng"
+      ],
+      "examples": [
+        "Nguyện vọng của mình là muốn đi khu vực nào đó",
+        "Mình muốn tìm đơn hàng như thế nào ạ?",
+        "Mình muốn đi Đài Bắc"
+      ],
+      "response": "Để phù hợp với nguyện vọng của mình thì anh/chị vui lòng cho công ty biết những thông tin sau để bên em hỗ trợ mình tìm đơn phù hợp ạ: 1. Ngành nghề: Điện tử, thực phẩm... 2. Khu vực: Đài Bắc, Đài Trung hay Đài Nam; 3. Có cần làm thêm nhiều không; 4. Muốn xuất cảnh thời điểm nào?"
+    }
+  },
+  {
+    "hoi_thong_tin_ca_nhan": {
+      "keywords": [
+        "thông tin cơ bản",
+        "họ tên",
+        "ngày sinh",
+        "trình độ",
+        "quê quán"
+      ],
+      "examples": [
+        "Thông tin cá nhân gồm những gì?",
+        "Mình cần điền thông tin cá nhân để tư vấn đúng không?",
+        "Điền bảng thông tin giúp mình"
+      ],
+      "response": "Anh/chị điền giúp em bảng thông tin này nhé, để công ty tìm đơn hàng phù hợp cho anh/chị: \n1. Họ và tên: ,\n2. Ngày sinh: ,\n3. Chiều cao: ,\n4. Cân nặng: ,\n5. Trình độ: ,\n6. Hôn nhân: ,\n7. Quê quán: ,\n8. Số điện thoại liên hệ: ,\n9. Kinh nghiệm làm việc/tay nghề: ,\n10. Nguyện vọng: ."
+    }
+  },
+  {
+    "hoi_thong_tin_lien_he":{
+      "keywords": [
+        "xin số điện thoại",
+        "liên hệ",
+        "zalo",
+        "sđt"
+      ],
+      "examples": [
+        "Chị để lại sđt để nhân viên tư vấn ạ",
+        "anh cho em xin số điện thoại để hỗ trợ",
+        "Em để lại số điện thoại để bên mình gọi nhé"
+      ],
+      "response": "Anh/chị cho em xin số điện thoại để nhân viên Tập đoàn có thể liên hệ mình tư vấn chi tiết. Sau đó kết bạn Zalo đưa anh/chị vào nhóm đơn hàng để xem đơn phù hợp nhé."
+    }
+  },
+  {
+    "hoi_chi_phi":{ 
+      "keywords": [
+        "phí",
+        "chi phí",
+        "bao nhiêu tiền",
+        "trọn gói"
+      ],
+      "examples": [
+        "Chi phí đi xkld đài loan bao nhiêu tiền",
+        "Cho mình hỏi chi phí trọn gói đi xkld là bao nhiêu?",
+        "Phí có cao không?"
+      ],
+      "response": "Dạ, chi phí sẽ phụ thuộc vào từng đơn hàng cụ thể, vì mỗi công việc có tính chất riêng nên mức phí cũng sẽ khác nhau ạ. Anh/chị có thể cho em xin một số thông tin như chiều cao/ cân nặng/ kinh nghiệm làm việc để em tư vấn hỗ trợ mình được không ạ?"
+    }
+  },
+  {
+    "hoi_don_hang": {
+      "examples": [
+        "Bên mình có những đơn hàng gì vậy",
+        "Hiện tại bên em có rất nhiều đơn hàng",
+        "link cập nhật đơn hàng mới"
+      ],
+      "response": "Hiện tại bên em có rất nhiều đơn hàng, em xin phép được kết bạn zalo với mình, sau đó sẽ thêm anh/chị vào nhóm đơn hàng của tập đoàn em để tham khảo nhé ạ...",
+      "keywords": [
+        "đơn hàng"
+      ]
+    }
+  },
+  {
+    "hoi_dia_chi": {
+      "examples": [
+        "Cho mình xin địa chỉ công ty",
+        "Công ty ở đâu vậy",
+        "Địa chỉ ở Hà Nội hay Sài Gòn"
+      ],
+      "response": "Địa chỉ công ty em ở Tầng 4 – Tòa nhà 18A1 – Đường Lê Đức Thọ – Phường Mỹ Đình 2 – Quận Nam Từ Liêm – Hà Nội...",
+      "keywords": [
+        "địa chỉ công ty"
+      ]
+    }
+  },
+  {
+    "hoi_ve_vay_von": {
+      "examples": [
+        "Có hỗ trợ vay vốn không",
+        "Công ty có hỗ trợ ngân hàng không",
+        "Làm sao để vay tiền đi xuất khẩu"
+      ],
+      "response": "Khi lao động trúng tuyển thì phía công ty sẽ cấp 1 bộ hồ sơ để vay vốn tại ngân hàng chính sách địa phương. Theo quy định thì người đi xuất khẩu lao động, nhà nước có khuyến khích cho vay ở Ngân hàng chính sách hoặc Agribank ạ",
+      "keywords": [
+        "hỗ trợ vay vốn"
+      ]
+    }
+  },
+  {
+    "hoi_ve_don_chi_dinh": {
+      "examples": [
+        "anh có đơn chỉ định",
+        "Người thân xin cho đi thì sao",
+        "Đơn chỉ định cần giấy tờ gì"
+      ],
+      "response": [
+        "Đơn chỉ định là người thân và bạn bè xin cho anh/chị ạ. Nhưng anh/chị vẫn phải lên trực tiếp công ty làm các thủ tục, nhận hồ sơ xã ạ. Để tránh bị lừa đảo thì trước khi lên trực tiếp công ty tìm hiểu, anh/chị tuyệt đối ko giao dịch chuyển khoản nhé"
+      ],
+      "keywords": [
+        "đơn chỉ định"
+      ]
+    }
+  },
+  {
+    "hoi_ve_phien_dich": {
+      "examples": [
+        "Mình có cần làm CV không",
+        "Phiên dịch yêu cầu gì",
+        "Đi làm phiên dịch thì sao"
+      ],
+      "response": "Anh/chị có CV chưa? Tìm việc thì tốt nhất mình nên có CV vì bên khách hàng của mình cần, anh/chị sẽ gửi cho họ, họ xem rồi thấy ok mới liên hệ lại anh/chị để hẹn lịch phỏng vấn cụ thể ",
+      "keywords": [
+        "phiên dịch"
+      ]
+    }
+  },
+  {
+    "muon_hop_tac": {
+      "examples": [
+        "Liên hệ hợp tác thế nào",
+        "Mình muốn làm cộng tác viên",
+        "Cho xin sđt liên hệ hợp tác"
+      ],
+      "response": "Anh/chị vui lòng để lại phương thức liên hệ hoặc liên hệ với Sếp bên em ạ: Mr Thanh 0932315959",
+      "keywords": [
+        "hợp tác"
+      ]
+    }
+  },
+  {
+    "bo_tron": {
+      "examples": [
+        "Từng trốn thì sao",
+        "Trường hợp đã từng thi tuyển rồi",
+        "Đã từng đăng ký nhiều nơi"
+      ],
+      "response": "Trường hợp này đầy đủ hồ sơ, chắc chắn đã từng thi tuyển hoặc đăng ký nhiều nơi...",
+      "keywords": [
+        "trốn"
+      ]
+    }
+  },
+  {
+    "truyen_thong": {
+      "examples": [
+        "Làm sao để truyền thông đơn hàng",
+        "Cách post bài vào hội nhóm",
+        "Muốn truyền thông trên zalo"
+      ],
+      "response": "Bước 1: Tạo 1 ảnh tóm tắt những lợi thế, thông tin cần thiết của đơn; Bước 2: Gắn link tổng hợp đơn hàng kèm theo",
+      "keywords": [
+        "hội nhóm zalo"
+      ]
+    }
+  },
+  {
+    "viem_gan_B": {
+      "examples": [
+        "Bị viêm gan B có đi được không",
+        "Viêm gan có ảnh hưởng không",
+        "Mắc bệnh gan có đi được không"
+      ],
+      "response": "Bị viêm gan B vẫn có thể đi xuất khẩu lao động Đài Loan. Tuy nhiên chỉ cần tránh các đơn thực phẩm thôi ạ",
+      "keywords": [
+        "viêm gan B"
+      ]
+    }
+  },
+  {
+      "bang_ky_su": {
+      "examples": [
+        "Yêu cầu bằng kỹ sư"
+      ],
+      "response": "Để đi được diện kỹ sư, anh/chị cần đáp ứng 3 điều kiện:\n1. Có bằng Cao đẳng hoặc Đại học chuyên ngành kỹ thuật.\n2. Có tham gia bảo hiểm xã hội:\n   - Tốt nghiệp Đại học đúng chuyên ngành kỹ thuật: cần tối thiểu 2 năm đóng bảo hiểm xã hội.\n   - Tốt nghiệp Cao đẳng đúng chuyên ngành kỹ thuật: cần ít nhất 5 năm đóng bảo hiểm xã hội.\n3. Có xác nhận kinh nghiệm làm việc tại các doanh nghiệp đã từng công tác.\n\nNếu anh/chị thiện chí đi diện kỹ sư, vui lòng thu xếp thời gian qua công ty để được trao đổi và tư vấn trực tiếp nhé.",
+      "keywords": [
+        "Bằng kỹ sư"
+      ]
+    }
+  },
+  {
+    "don_ky_su": {
+      "keywords": [
+        "Đơn kỹ sư"
+      ],
+      "example": [
+        "Điều kiện đi đơn kỹ sư",
+        "Muốn tìm đơn kỹ sư",
+        "Đi đơn kỹ sư"
+      ],
+      "response": "Anh/chị vui lòng cung cấp giúp em 4 thông tin sau để bên em kiểm tra đơn kỹ sư phù hợp:\n1. Tốt nghiệp trường gì?\n2. Học chuyên ngành gì?\n3. Công việc đã làm có đúng chuyên ngành không?\n4. Có đóng bảo hiểm xã hội không và được mấy năm rồi ạ?"
+    }
+  },
+  {
+    "hoi_tu_phap_so_2": {
+      "response": "Dạ tư pháp số 2 anh/chị có thể làm online (đối với VNeID định danh mức 2) hoặc lên sở tư pháp tỉnh để làm ạ",
+      "keywords": [
+        "Tư pháp số 2 làm ở đâu"
+      ],
+      "examples": []
+    }
+  },
+  {
+    "hinh_xam": {
+      "response": "Anh/chị xăm ở đâu ạ? Anh/chị có thể chụp gửi hình xăm không ạ?",
+      "keywords": [
+        "Hình xăm"
+      ],
+      "examples": []
+    }
+  },
+  {
+    "hoi_phi": {
+      "response": "Chi phí ở thời điểm hiện tại chắc chắn khác trước, anh/chị qua công ty đăng ký sẽ hạn chế qua các cầu trung gian, mức phí cụ thể sẽ tư vấn theo đơn hàng. Nếu mình thiện chí đi thì vui lòng cung cấp số điện thoại để bên em tư vấn và trao đổi chuyên sâu ở nhóm zalo.",
+      "keywords": [
+        "Phí"
+      ],
+      "examples": []
+    }
+  },
+  {
+    "hoi_thoi_gian_hoc_tieng": {
+      "response": "Thời gian học tiếng sẽ tầm 1 tháng ạ",
+      "keywords": [
+        "Thời gian học tiếng Đài"
+      ],
+      "examples": []
+    }
+  },
+  {
+    "truong_hop_chua_ket_hon": {
+      "response": "Hiện tại ưu tiên có gia đình thôi ạ, còn khi phỏng vấn, nếu anh/chị hợp vẫn nhận ạ",
+      "keywords": [
+        "Trường hợp chưa kết hôn"
+      ],
+      "examples": []
+    }
+  },
+  {
+    "hoi_thu_tuc/hoi_ho_so": {
+      "response": "Để đi xuất khẩu lao động, anh/chị cần chuẩn bị một số giấy tờ cơ bản như:\n\n1. **Tư pháp số 2**: Nếu anh/chị muốn đi XKLD, cần làm tư pháp số 2 trước. Có thể làm online qua ứng dụng VNeID nếu tài khoản đã được định danh mức độ 2.\n\n2. **Hộ chiếu**: Cầm căn cước công dân lên công an tỉnh để làm hộ chiếu ạ.\n\n3. **Tư pháp dán tem**: Khi tham gia đi XKLD tại công ty, nhân viên chuyên trách sẽ hỗ trợ anh/chị dán tem tư pháp. Phí dán tem do người lao động tự chi trả.\n\n👉 Trong thời gian anh/chị chuẩn bị hồ sơ, bên em sẽ hỗ trợ tư vấn và ghép đơn hàng phù hợp luôn ạ.",
+      "keywords": [
+        "Cho mình hỏi mình muốn đi xklđ thì phải làm thủ tục sao ạ",
+        "Thủ tục xkld",
+        "Muốn đi xkld cần thủ tục gì",
+        "Hồ sơ cơ bản xkld"
+      ],
+      "examples": []
+    }
+  },
+  {
+    "hoi_intense":{
+      "response": "Để đủ điều kiện đi du học Đài Loan, anh/chị cần:\n1. Tốt nghiệp Cao đẳng hoặc Đại học.\n2. Có chứng chỉ tiếng Trung tối thiểu trình độ A2 trở lên.\n\nNếu đáp ứng đủ 2 điều kiện này, bên em sẽ hỗ trợ tư vấn và làm hồ sơ chi tiết ạ",
+      "keywords": [
+        "Chương trình intense"
+      ],
+      "examples": []
+    }
+  },
+  {
+    "m50": {
+      "response": "Với chiều cao của mình thì mình đi được đơn hàng may mặc hoặc hộ lý ạ",
+      "keywords": [
+        "m50"
+      ],
+      "examples": []
+    }
+  },
+  {
+    "don_mien_phi": {
+      "response": "Đơn miễn phí ứng viên cần qua công ty sơ tuyển làm form trước ạ. Nhiều ứng viên đăng ký nên ít khi bắn ra ngoài ạ. Đơn về là đủ người luôn ạ.\nNên nếu anh/chị chỉ quan tâm đơn miễn phí thì mình thu xếp qua công ty em ",
+      "keywords": [
+        "Đơn miễn phí"
+      ],
+      "examples": []
+    }
+  },
+  {
+    "nhom_don_hang": {
+    "response": "Em mời anh/chị vào nhóm tổng hợp đơn hàng của tập đoàn em để tham khảo các đơn hàng phù hợp với mình ạ: https://zalo.me/g/mpqgmv832",
+    "keywords": [
+      "Nhóm đơn hàng"
+    ],
+    "examples": []
+    }
+  },
+  {
+    "zalo_doanh_nghiep": {
+      "response": "Chào anh/chị ạ. Nếu mình đang có nhu cầu đi XKLD Đài Loan, anh/chị vui lòng nhắn tin trực tiếp trên trang ZALO DOanh NGHIỆP được định danh để nhân viên tư vấn hỗ trợ mình ạ: https://zalo.me/saomaihr0931446688",
+      "keywords": [
+        "Nhắn zalo doanh nghiệp"
+      ],
+      "examples": []
+    }
+  },
+  {
+    "an_tich": {
+      "keywords": [
+        "Án tích"
+      ],
+      "examples": [
+        "Để đóng được visa đi XKLD Đài Loan",
+        "người có án tích",
+        "có án tích có đóng được visa không"
+      ],
+      "response": "Để đóng được visa đi XKLD Đài Loan thì sẽ cần tới phiếu lý lich tư pháp số 2. Trong tờ phiếu lý lịch tư pháp số 2 này ở mục 12 có ghi về số lượng án tích và tình trạng đã thực hiện xong án tích hay chưa. Nếu anh/chị có tiền án tiền sự dù đã xong thì vẫn bị ghi trên đó và không thể đóng visa đi xuất khẩu lao động Đài Loan được ạ."
+    }
+  },
+  {
+    "di_don_vo_chong": {
+      "keywords": [
+        "Đơn vợ chồng"
+      ],
+      "examples": [
+        "Có đơn vợ chồng ở cùng nhau không",
+        "muốn đi 2 vợ chồng"
+      ],
+      "response": "Có đơn vợ chồng ở cùng nhau ạ nhưng mà sẽ hơi mất thời gian lựa đơn. Có thể đi 2 nhà máy khác nhau nhưng gần nhau ạ. Tuy nhiên bình thường bên em hay định hướng cho chồng hoặc vợ đi trước. Sau đó tìm đơn gần theo nhu cầu ạ."
+    }
+  },
+  {
+    "hoi_ve_tu_phap": {
+      "keywords": [
+        "tư pháp số 2",
+        "làm tư pháp",
+        "xin tư pháp",
+        "giấy tư pháp",
+        "tư pháp đi xkld",
+        "tư pháp dán tem"
+      ],
+      "examples": [
+        "Vấn đề về tư pháp số 2",
+        "Bạn ơi làm tư pháp số 2 như nào?",
+        "Em chưa có tư pháp số 2 thì đi được không?",
+        "Có thể làm tư pháp online không?",
+        "Tư pháp số 2 dùng để làm gì vậy ạ?",
+        "Tư pháp dán tem là sao ạ?"
+      ],
+      "response": "Khi anh/chị làm tư pháp số 2 sẽ có 1 bản cứng gửi cho cơ quan chức năng gửi cho chị. Sau đó chị gửi bản tư pháp số 2 đó cho cty để cán bộ phụ trách hỗ trợ chị dán tem cục lãnh sự hoặc chị có thể tự đi dán rồi nộp lại cty. Khi đó mới đóng visa được ạ. Cái chị gửi mới chỉ làm chị khai báo làm tư pháp số 2 thôi ạ. Thường sẽ mất khoảng 20 ngày chị mới nhận được tư pháp số 2"
+    }
+  },
+  {
+    "hoi_chi_phi_hoc": {
+      "keywords": [
+        "Học phí",
+        "học phí",
+        "chi phí học",
+        "phí học tiếng",
+        "chi phí du học",
+        "học phí bên mình"
+      ],
+      "examples": [
+        "Học phí đi du học là bao nhiêu ạ?",
+        "Chi phí học tiếng khoảng bao nhiêu?",
+        "Du học Đài mất khoảng bao nhiêu tiền?",
+        "Cho em hỏi học phí chương trình du học",
+        "Đi Đài học phí như thế nào?"
+      ],
+      "response": "Dạ học phí theo em được biết 1 khoá học tiếng với học phí đi xklđ là 2.5tr/ khoá. Phí sinh hoạt bên trung tâm đào tạo thu 500 ngàn đồng ạ. Ăn uống học viên tự túc ăn bên ngoài "
+    }
+  },
+  {
+    "hoi_hoc_tieng": {
+      "keywords": [
+        "học tiếng",
+        "có phải học tiếng không",
+        "bắt buộc học tiếng",
+        "mất bao lâu học tiếng",
+        "học tiếng bao lâu",
+        "học tiếng ở đâu",
+        "học tiếng trước khi đi",
+        "lịch học tiếng",
+        "trung tâm dạy tiếng",
+        "học tiếng nhật",
+        "học tiếng đài loan"
+      ],
+      "examples": [
+        "Em có cần học tiếng trước khi đi không?",
+        "Bên mình có lớp học tiếng không ạ?",
+        "Học tiếng Đài có khó không?",
+        "Học tiếng Nhật trong bao lâu là đủ để đi XKLĐ?",
+        "Học tiếng ở đâu thì được ạ?",
+        "Đi Nhật có bắt buộc học tiếng không vậy?",
+        "Đi du học thì học tiếng trước hay sau khi sang?",
+        "Lịch học tiếng như thế nào bên mình?",
+        "Học tiếng mất bao lâu thì đi được ạ?",
+        "Đi xkld Đài có trung tâm dạy tiếng không?"
+      ],
+      "response": "Hầu hết các đơn hàng hiện tại đều ưu tiên lao động biết tiếng Trung cơ bản. Nếu mình biết tiếng thì khi phỏng vấn sẽ có lợi thế cạnh tranh tốt hơn. Thời gian học tiếng khoảng từ 1 tháng đến 1 tháng rưỡi ạ. Trong quá trình học tiếng công ty sẽ tư vấn và ghép đơn phù hợp cho mình ạ"
+    }
+  },
+  {
+    "hoi_ve_du_hoc": {
+      "keywords": [
+        "em muốn đi du học",
+        "em muốn hỏi về du học",
+        "đi du học",
+        "du học nhật bản",
+        "du học đài loan",
+        "du học hàn quốc",
+        "muốn đăng ký du học",
+        "có chương trình du học không",
+        "tư vấn du học",
+        "quan tâm chương trình du học"
+      ],
+      "examples": [
+        "Em đang quan tâm chương trình du học Nhật ạ",
+        "Cho em hỏi đi du học Đài Loan cần điều kiện gì?",
+        "Du học Hàn có cần tiếng không ạ?",
+        "Đi du học có được làm thêm không?",
+        "Em muốn tìm hiểu chương trình du học",
+        "Bên mình có hỗ trợ đi du học không?",
+        "Em muốn đăng ký chương trình du học Nhật",
+        "Chi phí du học Hàn bao nhiêu?",
+        "Tư vấn giúp em chương trình du học với ạ"
+      ],
+      "response": "Để em hỗ trợ tư vấn du học tốt hơn, anh/chị cho em xin một số thông tin cơ bản sau ạ:\n1. Họ và tên đầy đủ: \n2. Năm sinh: \n3. Anh/chị học hết trình độ nào? \n4. Điểm trung bình 3 năm cấp 3: \n5. Đã học qua tiếng Trung/Nhật/Hàn chưa?\nSau khi có thông tin, bên em sẽ sàng lọc và gửi chương trình phù hợp nhất cho anh/chị nha!"
+    }
+  },
+  {
+    "Gui_link": {
+      "keywords": [
+        "Gửi link làm form"
+      ],
+      "examples": [],
+      "response": "Anh/chị điền giúp em thông tin để bên em làm form nhé. Em gửi mình link form ạ: https://forms.gle/ykuPWbvvWS4RPfLA6"
+    }
+  }
+]
